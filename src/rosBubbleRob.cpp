@@ -27,7 +27,7 @@ void simulationTimeCallback(const std_msgs::Float32& simTime)
 int main(int argc,char* argv[])
 {
     // The robot motor velocities and the sensor topic names are given in the argument list
-    // (when V-REP launches this executable, V-REP will also provide the argument list)
+    // (when CoppeliaSim launches this executable, CoppeliaSim will also provide the argument list)
     std::string leftMotorTopic;
     std::string rightMotorTopic;
     std::string sensorTopic;
@@ -120,7 +120,7 @@ int main(int argc,char* argv[])
         usleep(5000);
     }
     ros::shutdown();
-    printf("rosBubbleRob2 just ended!\n");
+    printf("rosBubbleRob just ended!\n");
     return(0);
 }
 
