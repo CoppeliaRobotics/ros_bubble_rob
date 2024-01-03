@@ -3,7 +3,7 @@
   <description>BubbleRob node</description>
   <maintainer email="info@coppeliarobotics.com">Coppelia</maintainer>
   <version>3.3.0</version>
-  <author>Marc</author>
+  <author>Coppelia</author>
   <license>BSD2</license>
   <url>http://www.coppeliarobotics.com</url>
   <buildtool_depend>catkin</buildtool_depend>
